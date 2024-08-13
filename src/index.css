@@ -5,12 +5,19 @@
 .main{
   background-color:#1E0342;
 }
-.book2{
-  background: rgba(187, 182, 182, 0.45);
-  -webkit-backdrop-filter: blur(4px);
-  backdrop-filter: blur(4px);
-  border: 1px solid rgba(30, 30, 30, 0.225);
+.book2 {
+  background: rgba(45, 16, 88, 0.5); /* RGB with alpha for transparency */
+  -webkit-backdrop-filter: blur(8px); /* Safari support */
+  backdrop-filter: blur(8px); /* Background blur effect */
+  border: 1px solid rgba(30, 30, 30, 0.225); /* Border with slight transparency */
 }
+.paradox{
+  background: rgba(104, 103, 106, 0.5); /* RGB with alpha for transparency */
+  -webkit-backdrop-filter: blur(8px); /* Safari support */
+  backdrop-filter: blur(8px); /* Background blur effect */
+  border: 1px solid rgba(30, 30, 30, 0.225)
+}
+
 .how{
   background-color:#250d48;
 }
