@@ -11,20 +11,20 @@ function How() {
  <section className='how my-4 p-8 max-w-7xl mx-auto'>
     <h1 className='text-center text-2xl font-bold text-white p-6'>How it Works </h1>
     
-    <div className='flex flex-wrap justify-around my-8 '>
+    <div className='flex flex-wrap  my-8 '>
           <Card
         icon={<FaRuler color="white" fontSize="32"/>}
         title="Choose Your Genre"
         description="Select from a wide range of genres or create a custom blend"
         containerStyles="flex items-center mx-4 lg:my-0 my-8"
-         iconStyles="bg-sky-500 w-16 h-16 rounded-full flex items-center justify-center mx-6"
+         iconStyles="bg-sky-500 w-14 h-14 rounded-full flex items-center justify-center mx-6"
     />
      <Card
         icon={<FaPencilAlt color="white" fontSize="32"/>}
         title="Provide Key details"
         description="Input main characters, plot points, or themes to guide the AI"
-        containerStyles="flex items-center"
-         iconStyles="bg-sky-500 w-16 h-16 rounded-full flex items-center justify-center mx-6"
+        containerStyles="flex items-center mx-4"
+         iconStyles="bg-sky-500 w-14 h-14 rounded-full flex items-center justify-center mx-6"
     />
     </div>
        
@@ -35,14 +35,14 @@ function How() {
         title="AI Generation"
         description="Our advanced AI create your book based on your inputs"
         containerStyles="flex items-center mx-4 lg:my-0 my-8"
-         iconStyles="bg-sky-500 w-16 h-16 rounded-full flex items-center justify-center mx-6"
+         iconStyles="bg-sky-500 w-14 h-14 rounded-full flex items-center justify-center mx-6"
     />
      <Card
         icon={<MdDownloadForOffline color="white" fontSize="32"/>}
         title="Review and Download"
         description="Review your generated book and download in your preferred format"
-        containerStyles="flex items-center"
-         iconStyles="bg-sky-500 w-16 h-16 rounded-full flex items-center justify-center mx-6"
+        containerStyles="flex items-center mx-4"
+         iconStyles="bg-sky-500 w-14 h-14 rounded-full flex items-center justify-center mx-6"
     />
     </div>
     </section>    
@@ -84,7 +84,20 @@ function How() {
             <h1 className='text-purple-800 text-center hover:text-white font-bold text-xl my-6'>Read More</h1></Link>
         </div>
        </div>
+       
     </section> 
+    <div className=' book2 py-8 px-6  relative rounded-md w-full h-fit my-16   mx-auto '>
+         <div className="w-100 h-100 ">
+         <img src="book2.png" alt="book2" className='rounded-lg transition-transform transform hover:scale-105' /></div>
+         <div className='paradox top-6 absolute bg-slate-300 py-2 pl-10 pr-2 rounded-lg transition-transform transform hover:scale-105'>
+    <img src="paradox.png" alt="paradox" className='w-24 rounded-lg h-32' />
+</div>
+<div className='paradox absolute right-4 flex bottom-4 px-7 py-3 rounded-lg items-center'>
+  <button className='bg-sky-500 w-8 h-8 rounded-full'></button>
+  <h1 className='text-white font-bold text-xl bottom-16 ml-2'>Chapter Complete</h1>
+</div>
+
+      </div>
     </section>
    
   )
