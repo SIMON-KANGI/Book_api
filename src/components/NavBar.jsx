@@ -24,7 +24,7 @@ function NavBar() {
           <li><Link to="/price" className='text-gray-100 hover:text-blue-500' style={{ color: theme.color }}>Price</Link></li>
           <li><Link to="/models" className='text-gray-100 hover:text-blue-500' style={{ color: theme.color }}>Models</Link></li>
           <li className='text-gray-100 text-xl'>
-            <button onClick={toggleTheme} style={{ color: theme.color }}>
+            <button onClick={toggleTheme} className='items-center flex' style={{ color: theme.color }}>
               {darkTheme ? <MdLightMode /> : <MdDarkMode />}
             </button>
           </li>
