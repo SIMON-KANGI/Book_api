@@ -24,7 +24,7 @@ function Features() {
      />
        <Card
         icon={<FaDownload color="white" fontSize="32"/>}
-        title="AI-Powered Writing"
+        title="Instant Download"
         description="Get your completed book in various formats instantly"
          iconStyles="flex items-center justify-center w-16 h-16 mx-auto rounded-full bg-purple-700 mb-4"
         containerStyles="text-center w-full bg-transparent p-6 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300 ease-in-out"
