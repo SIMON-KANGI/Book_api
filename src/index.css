@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .main{
-  background-color:#1E0342;
+  background-color:#15032d;
 }
 .book2 {
   background: rgba(45, 16, 88, 0.5); /* RGB with alpha for transparency */
@@ -19,5 +19,5 @@
 }
 
 .how{
-  background-color:#250d48;
+  background-color:#1a0834;
 }
