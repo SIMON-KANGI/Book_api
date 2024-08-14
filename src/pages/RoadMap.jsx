@@ -62,7 +62,17 @@ function RoadMap() {
                 <h2 className='font-bold text-xl text-white text-center'>-Mark The., Aspiring Writer</h2>
             </div>
         </div>
-    </section>   
+    </section>  
+    <section className='how p-8 mb-16'>
+        <h1 className='text-center text-2xl font-bold text-stone-100'>Stay Updated</h1>
+        <p className='text-center text-xl mt-12 text-stone-100'>Subscribe to our newsletter for the latest AI writing 
+        tips and BookAI updates</p>
+        <div className='my-8'>
+            <input type="email" placeholder="Enter your email" className=' bg-stone-100 items-center text-gray-500 py-2 rounded-l-md pl-3 w-96'/>
+            <button className='bg-gradient-to-r from-blue-500 to-blue-300 px-8 w-full mt-3 py-2 rounded-md text-white font-bold'>Subscribe</button>
+        </div>
+    </section> 
+    <hr className='text-stone-700'/>
     </section>
   )
 }
