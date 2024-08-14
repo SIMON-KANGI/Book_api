@@ -45,8 +45,23 @@ function RoadMap() {
     />
     </div>
     </section>  
-    <section>
+    <section className='my-16'>
         <h1 className='text-center text-2xl font-bold text-stone-100'>What users say</h1>
+        <div className='flex lg:grid grid-cols-2 my-16'>
+            <div className='how rounded-md mx-4 py-8 px-10'>
+                <p className='text-stone-100 text-center  text-xl text-wrap'>
+                "BookAI revolutionized my writing process.I completed my <br/>debut  novel in just two weeks!"
+                </p>
+                <h2 className='font-bold text-xl text-white text-center'>-Sarah J., Author</h2>
+            </div>
+            <div className='how rounded-md mx-4 py-8 px-10'>
+                <p className='text-stone-100 text-center  text-xl text-wrap'>
+                "The AI-generated ideas helped me overcome writer's block. It's like 
+                having a co-author at your fingertips"
+                </p>
+                <h2 className='font-bold text-xl text-white text-center'>-Mark The., Aspiring Writer</h2>
+            </div>
+        </div>
     </section>   
     </section>
   )
