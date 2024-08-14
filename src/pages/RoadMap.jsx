@@ -12,7 +12,7 @@ function RoadMap() {
     <section style={{ backgroundColor: theme.bg2}} className='shadow-lg my-4 p-8 max-w-7xl mx-auto'>
     <h1 style={{ color: theme.color}}  className='text-center text-2xl font-bold text-white p-6'>RoadMap </h1>
     
-    <div className='flex flex-wrap  my-8 '>
+    <div className='flex flex-wrap lg:grid grid-cols-2  my-8 '>
           <Card
         icon={<IoPersonCircleSharp color="white" fontSize="32"/>}
         title="Advanced Character Development"
@@ -30,7 +30,7 @@ function RoadMap() {
     </div>
        
     
-    <div className='flex flex-wrap justify-around my-16 '>
+    <div className='flex flex-wrap lg:grid grid-cols-2 justify-around my-16 '>
          <Card
         icon={<RiTeamFill color="white" fontSize="32"/>}
         title="Collaborative Writing"
