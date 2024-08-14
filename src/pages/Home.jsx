@@ -4,7 +4,7 @@ function Home() {
   const theme=colorPallete()
   return (
     <div id="home" className='my-8'>
-      <h1 className='text-gray-100 text-5xl text-center font-bold' style={{ color: theme.color}}>
+      <h1 className='text-gray-100 lg:text-5xl text-3xl text-center font-bold' style={{ color: theme.color}}>
         Explore the Possibilities of{' '}
         <span className=' border-violet-400 bg-clip-text text-transparent bg-gradient-to-r from-violet-600 to-violet-800'>
           AI Book Writing
