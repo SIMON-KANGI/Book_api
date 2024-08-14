@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import Features from './pages/Features'
 import How from './pages/How'
 import RoadMap from './pages/RoadMap'
+import Footer from './pages/footer'
 function App() {
   return (
     <div className='main w-screen  flex flex-col'>
@@ -12,6 +13,8 @@ function App() {
      <Features/>
      <How/>
      <RoadMap/>
+     
+     <Footer/>
     </div>
   )
 }
