@@ -22,10 +22,10 @@ function Home() {
       <div className=' book2 py-8 px-6  relative rounded-md w-3/5 h-fit   mx-auto '>
          <div className="w-100 h-100 ">
          <img src="book2.png" alt="book2" className='rounded-lg transition-transform transform hover:scale-105' /></div>
-         <div className=' book2 top-6 absolute bg-slate-300 py-2 pl-10 pr-2 rounded-lg transition-transform transform hover:scale-105'>
+         <div className='paradox top-6 absolute bg-slate-300 py-2 pl-10 pr-2 rounded-lg transition-transform transform hover:scale-105'>
     <img src="paradox.png" alt="paradox" className='w-24 rounded-lg h-32' />
 </div>
-<div className='absolute right-4 flex bottom-4 px-7 py-3 book2 rounded-lg items-center'>
+<div className='paradox absolute right-4 flex bottom-4 px-7 py-3 rounded-lg items-center'>
   <button className='bg-sky-500 w-8 h-8 rounded-full'></button>
   <h1 className='text-white font-bold text-xl bottom-16 ml-2'>Chapter Complete</h1>
 </div>
