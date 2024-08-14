@@ -1,9 +1,16 @@
 import React from 'react';
 import colorPallete from '../context/colors';
+import Features from './Features';
+import How from './How';
+import RoadMap from './RoadMap';
+import NavBar from '../components/NavBar';
+import Footer from './footer';
 function Home() {
   const theme=colorPallete()
   return (
-    <div id="home" className='my-8'>
+    <section>
+    <NavBar/>
+        <div id="home" className='my-8'>
       <h1 className='text-gray-100 lg:text-5xl text-3xl text-center font-bold' style={{ color: theme.color}}>
         Explore the Possibilities of{' '}
         <span className=' border-violet-400 bg-clip-text text-transparent bg-gradient-to-r from-violet-600 to-violet-800'>
@@ -20,6 +27,7 @@ function Home() {
         <button style={{ color: theme.color}} className='bg-gradient-to-r from-blue-500 to-blue-300 px-8 py-3 mx-2 rounded-full text-xl text-white font-bold items-center'>Get Started</button>
         <button style={{ color: theme.color}}   className='bg-gradient-to-r from-blue-500 to-blue-300 px-8 py-3 rounded-full text-xl text-white font-bold  items-center'>Get Api Access</button>
       </div>
+      <h1 className='text-amber-500 py-16 text-center'>Attention:TryBookAI has been acquired by Indicus AI. Indicus LLM will be used for text and image generation</h1>
       <div className=' book2 py-8 px-6  relative rounded-md w-3/5 h-fit   mx-auto '>
          <div className="w-100 h-100 ">
          <img src="book2.png" alt="book2" className='rounded-lg transition-transform transform hover:scale-105' /></div>
@@ -34,6 +42,18 @@ function Home() {
       </div>
      
     </div>
+   <div id="features">
+     <Features/>
+   </div>
+    <div id="how">
+       <How/>
+    </div>
+    <div id="road">
+       <RoadMap/>
+    </div>
+    <Footer/>
+    </section>
+  
   );
 }
 
