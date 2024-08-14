@@ -1,9 +1,10 @@
 import React from 'react';
-
+import colorPallete from '../context/colors';
 function Home() {
+  const theme=colorPallete()
   return (
     <div id="home" className='my-8'>
-      <h1 className='text-gray-100 text-5xl text-center font-bold'>
+      <h1 className='text-gray-100 text-5xl text-center font-bold' style={{ color: theme.color}}>
         Explore the Possibilities of{' '}
         <span className=' border-violet-400 bg-clip-text text-transparent bg-gradient-to-r from-violet-600 to-violet-800'>
           AI Book Writing
@@ -12,12 +13,12 @@ function Home() {
         BookAI
       </h1>
       <div className='my-8'>
-        <p className='text-xl text-stone-300 text-center'>Unleash the power of AI to create captivating books in minutes.</p>
-        <p className='text-xl text-stone-300 text-center'>Download, Distribute wherever you want. Generate unlimited free <br/>books</p>
+        <p style={{ color: theme.color2}} className='text-xl text-stone-300 text-center'>Unleash the power of AI to create captivating books in minutes.</p>
+        <p style={{ color: theme.color2}} className='text-xl text-stone-300 text-center'>Download, Distribute wherever you want. Generate unlimited free <br/>books</p>
       </div>
       <div className='justify-center items-center my-8  flex'>
-        <button className='bg-gradient-to-r from-blue-500 to-blue-300 px-8 py-3 mx-2 rounded-full text-xl text-white font-bold items-center'>Get Started</button>
-        <button className='bg-gradient-to-r from-blue-500 to-blue-300 px-8 py-3 rounded-full text-xl text-white font-bold  items-center'>Get Api Access</button>
+        <button style={{ color: theme.color}} className='bg-gradient-to-r from-blue-500 to-blue-300 px-8 py-3 mx-2 rounded-full text-xl text-white font-bold items-center'>Get Started</button>
+        <button style={{ color: theme.color}}   className='bg-gradient-to-r from-blue-500 to-blue-300 px-8 py-3 rounded-full text-xl text-white font-bold  items-center'>Get Api Access</button>
       </div>
       <div className=' book2 py-8 px-6  relative rounded-md w-3/5 h-fit   mx-auto '>
          <div className="w-100 h-100 ">
