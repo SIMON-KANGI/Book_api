@@ -6,18 +6,20 @@ import How from './pages/How'
 import RoadMap from './pages/RoadMap'
 import Footer from './pages/footer'
 import colorPallete from './context/colors'
+import { Routes,Route } from 'react-router-dom'
+import Api from './pages/Api'
 function App() {
   const theme=colorPallete()
   return (
-    <div className='main w-screen  flex flex-col' style={{background:theme.bg,color:theme.color2}}>
-     <NavBar/>
-     <Home/>
-     <Features/>
-     <How/>
-     <RoadMap/>
-     
-     <Footer/>
-    </div>
+    <main className='main w-screen  flex flex-col' style={{background:theme.bg,color:theme.color2}}>
+    
+    
+     <Routes>
+     <Route path="/" element={<Home/>} />
+      <Route path="/api" element={<Api/>}/>
+     </Routes>
+   
+    </main>
   )
 }
 
