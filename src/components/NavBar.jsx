@@ -17,12 +17,12 @@ function NavBar() {
       </div>
       <nav>
         <ul className='flex space-x-6 items-center'>
-          <li><Link to="#features" className='text-gray-100 text-lg hover:text-blue-500' style={{ color: theme.color }}>Features</Link></li>
-          <li><Link to="/how" className='text-gray-100 hover:text-blue-500' style={{ color: theme.color }}>How it Works</Link></li>
-          <li><Link to="/road" className='text-gray-100 hover:text-blue-500' style={{ color: theme.color }}>Roadmap</Link></li>
-          <li><Link to="/api" className='text-gray-100 hover:text-blue-500' style={{ color: theme.color }}>Api</Link></li>
-          <li><Link to="/price" className='text-gray-100 hover:text-blue-500' style={{ color: theme.color }}>Price</Link></li>
-          <li><Link to="/models" className='text-gray-100 hover:text-blue-500' style={{ color: theme.color }}>Models</Link></li>
+          <li><a href="#features" className='text-gray-100 text-lg hover:text-blue-500' style={{ color: theme.color }}>Features</a></li>
+          <li><a href="#how" className='text-gray-100 hover:text-blue-500' style={{ color: theme.color }}>How it Works</a></li>
+          <li><a href="#road" className='text-gray-100 hover:text-blue-500' style={{ color: theme.color }}>Roadmap</a></li>
+          <li><a href="/api" className='text-gray-100 hover:text-blue-500' style={{ color: theme.color }}>Api</a></li>
+          <li><a href="/api/#price" className='text-gray-100 hover:text-blue-500' style={{ color: theme.color }}>Price</a></li>
+          <li><a href="/api" className='text-gray-100 hover:text-blue-500' style={{ color: theme.color }}>Models</a></li>
           <li className='text-gray-100 text-xl'>
             <button onClick={toggleTheme} className='items-center flex' style={{ color: theme.color }}>
               {darkTheme ? <MdLightMode /> : <MdDarkMode />}
