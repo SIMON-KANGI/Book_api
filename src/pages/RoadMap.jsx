@@ -49,7 +49,7 @@ function RoadMap() {
     </section>  
     <section className='my-16'>
         <h1 style={{ color: theme.color}}  className='text-center text-2xl font-bold text-stone-100'>What users say</h1>
-        <div className='flex lg:grid grid-cols-2 my-16'>
+        <div className='flex flex-wrap lg:grid grid-cols-2 my-16'>
             <div style={{ backgroundColor: theme.bg2}} className='shadow-lg rounded-md mx-4 py-8 px-10'>
                 <p style={{ color: theme.color}} className='text-stone-100 text-center  text-xl text-wrap'>
                 "BookAI revolutionized my writing process.I completed my <br/>debut  novel in just two weeks!"
