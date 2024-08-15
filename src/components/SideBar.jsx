@@ -52,7 +52,7 @@ function SideBar() {
                                 </button>
                             </div>
                             <div>
-                                <button className='bg-gradient-to-r from-blue-500 to-blue-300 w-full py-4 text-xl text-white rounded-lg hover:bg-blue-600'>
+                                <button style={{ color: theme.color }} className='bg-gradient-to-r from-blue-500 to-blue-300 w-full py-4 text-xl rounded-lg hover:bg-blue-600'>
                                     Login/Sign Up
                                 </button>
                             </div>
