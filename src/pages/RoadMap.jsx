@@ -21,8 +21,8 @@ function RoadMap() {
     />
      <Card
         icon={<MdOutlineLaptopChromebook color="white" fontSize="32"/>}
-        title="Provide Key details"
-        description="E-book Platform Integration"
+        title="E-book Platform Integration"
+        description="Seamless publishing to popular e-book platforms"
        
     />
     </div>
