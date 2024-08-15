@@ -9,55 +9,51 @@ function RoadMap() {
     const theme=colorPallete()
   return (
     <section className='max-w-7xl mx-auto'>
-    <section style={{ backgroundColor: theme.bg2}} className='shadow-lg my-4 p-8 max-w-7xl mx-auto'>
+    <section style={{ backgroundColor: theme.bg2}} className='shadow-lg my-4 p-8 max-w-7xl lg:mx-auto mx-8 rounded-lg'>
     <h1 style={{ color: theme.color}}  className='text-center text-2xl font-bold text-white p-6'>RoadMap </h1>
     
-    <div className='flex flex-wrap lg:grid grid-cols-2  my-8 '>
+    <div className='flex flex-wrap lg:grid lg:grid-cols-2  lg:my-8 '>
           <Card
         icon={<IoPersonCircleSharp color="white" fontSize="32"/>}
         title="Advanced Character Development"
         description="AI-powered tool for creating deep, complex characters"
-        containerStyles="flex items-center mx-4 lg:my-0 my-8"
-         iconStyles="bg-sky-500 w-14 h-14 rounded-full flex items-center justify-center mx-6"
+       
     />
      <Card
         icon={<MdOutlineLaptopChromebook color="white" fontSize="32"/>}
         title="Provide Key details"
         description="E-book Platform Integration"
-        containerStyles="flex items-center"
-         iconStyles="bg-sky-500 w-14 h-14 rounded-full flex items-center justify-center mx-6"
+       
     />
     </div>
        
     
-    <div className='flex flex-wrap lg:grid grid-cols-2 justify-around my-16 '>
+    <div className='flex flex-wrap lg:grid lg:grid-cols-2 lg:justify-around lg:my-16 '>
          <Card
         icon={<RiTeamFill color="white" fontSize="32"/>}
         title="Collaborative Writing"
         description="Co-create stories with other authors or AI assistants"
-        containerStyles="flex items-center mx-4 lg:my-0 my-8"
-         iconStyles="bg-sky-500 w-14 h-14 rounded-full flex items-center justify-center mx-4"
+       
     />
      <Card
         icon={<FaPaintBrush color="white" fontSize="32"/>}
         title="AI Cover Art Generation"
         description="Create stunning book covers with AI-generated art."
-        containerStyles="flex items-center mx-4"
-         iconStyles="bg-sky-500 w-14 h-14 rounded-full flex items-center justify-center mx-8"
+        
     />
     </div>
     </section>  
     <section className='my-16'>
         <h1 style={{ color: theme.color}}  className='text-center text-2xl font-bold text-stone-100'>What users say</h1>
-        <div className='flex flex-wrap lg:grid grid-cols-2 my-16'>
-            <div style={{ backgroundColor: theme.bg2}} className='shadow-lg rounded-md mx-4 py-8 px-10'>
-                <p style={{ color: theme.color}} className='text-stone-100 text-center  text-xl text-wrap'>
+        <div className='flex flex-wrap lg:grid grid-cols-2 my-16 lg:mx-0 mx-6'>
+            <div style={{ backgroundColor: theme.bg2}} className='shadow-lg rounded-md my-4 mx-4 py-8 px-10'>
+                <p style={{ color: theme.color}} className='text-stone-100 text-center  lg:text-xl text-lg text-wrap'>
                 "BookAI revolutionized my writing process.I completed my <br/>debut  novel in just two weeks!"
                 </p>
                 <h2 style={{ color: theme.color}} className='font-bold text-xl text-white text-center'>-Sarah J., Author</h2>
             </div>
-            <div style={{ backgroundColor: theme.bg2}} className='shadow-lg rounded-md mx-4 py-8 px-10'>
-                <p style={{ color: theme.color}} className='text-stone-100 text-center  text-xl text-wrap'>
+            <div style={{ backgroundColor: theme.bg2}} className='shadow-lg rounded-md my-4 mx-4 py-8 px-10'>
+                <p style={{ color: theme.color}} className='text-stone-100 text-center  lg:text-xl text-lg text-wrap'>
                 "The AI-generated ideas helped me overcome writer's block. It's like 
                 having a co-author at your fingertips"
                 </p>
@@ -65,7 +61,7 @@ function RoadMap() {
             </div>
         </div>
     </section>  
-    <section style={{ backgroundColor: theme.bg2}} className='shadow-lg p-8 mb-16'>
+    <section style={{ backgroundColor: theme.bg2}} className='shadow-lg p-8 lg:mx-0  mx-6 mb-16'>
         <h1 style={{ color: theme.color}} className='text-center text-2xl font-bold text-stone-100'>Stay Updated</h1>
         <p style={{ color: theme.color}} className='text-center text-xl mt-12 text-stone-100'>Subscribe to our newsletter for the latest AI writing 
         tips and BookAI updates</p>
