@@ -23,8 +23,8 @@ function Home() {
         <p style={{ color: theme.color2}} className='lg:text-xl text-lg text-stone-300 lg:text-center'>Download, Distribute wherever you want. Generate unlimited free <br/>books</p>
       </div>
       <div className='justify-center items-center my-8  flex'>
-        <button style={{ color: theme.color}} className='bg-gradient-to-r from-blue-500 to-blue-300 px-8 py-3 mx-2 rounded-full text-xl text-white font-bold items-center'>Get Started</button>
-        <button style={{ color: theme.color}}   className='bg-gradient-to-r from-blue-500 to-blue-300 px-8 py-3 rounded-full text-xl text-white font-bold  items-center'>Get Api Access</button>
+        <button style={{ color: theme.color}} className='bg-gradient-to-r from-blue-500 to-blue-300  xl:px-6 xl:py-3 px-8 py-3 mx-2 rounded-full lg:text-xl text-lg font-bold items-center'>Get Started</button>
+        <button style={{ color: theme.color}}   className='bg-gradient-to-r from-blue-500 to-blue-300 px-8 py-3 rounded-full lg:text-xl text-lg  font-bold  items-center'>Get Api Access</button>
       </div>
       <h1 style={{color:theme.color3}} className=' py-16 font-bold text-center'>Attention:TryBookAI has been acquired by Indicus AI. Indicus LLM will be used for text and image generation</h1>
       <div style={{backgroundColor:theme.bg5}} className=' book2 py-8 px-6  relative rounded-md lg:w-3/5 w-full h-fit   mx-auto '>
