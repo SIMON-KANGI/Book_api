@@ -31,7 +31,7 @@ function NavBar() {
             </button>
           </li>
           <li>
-            <button className='bg-gradient-to-r from-blue-500 to-blue-300 px-6 py-2 lg:px-10 lg:py-4 text-lg lg:text-xl text-white rounded-lg hover:bg-blue-600'>
+            <button style={{ color: theme.color }} className='bg-gradient-to-r from-blue-500 to-blue-300 px-6 py-2 lg:px-10 lg:py-4 text-lg lg:text-xl  rounded-lg hover:bg-blue-600'>
               Login/Sign Up
             </button>
           </li>
