@@ -5,7 +5,7 @@ function Price() {
     const theme = colorPallete();
 
     return (
-        <section className='mx-auto w-1/2 h-screen'>
+        <section className='mx-auto lg:w-1/2 w-full h-screen'>
             <div style={{ backgroundColor: theme.bg4 }} className="rounded-md py-16 px-8 mt-8">
                 <h1 className='text-indigo-500 text-3xl font-bold mb-4'>API Pricing</h1>
                 <p className='text-lg mb-8'>
